@@ -1,0 +1,89 @@
+{
+  "accuracy": 0.7533333333333333,
+  "model": "logistic_regression",
+  "test_rows": 300,
+  "features_selected": [
+    "numeric__social_events_per_month",
+    "numeric__hours_alone_per_day",
+    "numeric__friends_circle_size",
+    "numeric__posts_per_week",
+    "categorical__stage_fear_No",
+    "categorical__stage_fear_Yes",
+    "categorical__drained_after_socializing_No",
+    "categorical__drained_after_socializing_Yes"
+  ],
+  "anova": [
+    {
+      "feature": "numeric__hours_alone_per_day",
+      "f_score": 131.70147362931644
+    },
+    {
+      "feature": "numeric__social_events_per_month",
+      "f_score": 99.08307601522495
+    },
+    {
+      "feature": "categorical__stage_fear_No",
+      "f_score": 76.2107236987245
+    },
+    {
+      "feature": "categorical__stage_fear_Yes",
+      "f_score": 76.21072369872421
+    },
+    {
+      "feature": "categorical__drained_after_socializing_No",
+      "f_score": 60.67901024494802
+    },
+    {
+      "feature": "categorical__drained_after_socializing_Yes",
+      "f_score": 60.67901024494802
+    },
+    {
+      "feature": "numeric__friends_circle_size",
+      "f_score": 39.99139892973092
+    },
+    {
+      "feature": "numeric__posts_per_week",
+      "f_score": 29.754309804349347
+    },
+    {
+      "feature": "numeric__outdoor_days_per_week",
+      "f_score": 20.798139113142494
+    },
+    {
+      "feature": "categorical__interest_Sports",
+      "f_score": 17.296345198103616
+    },
+    {
+      "feature": "categorical__interest_Books",
+      "f_score": 12.732111299381618
+    },
+    {
+      "feature": "categorical__gender_Male",
+      "f_score": 4.744888202798875
+    },
+    {
+      "feature": "categorical__interest_Art",
+      "f_score": 3.9144849443525302
+    },
+    {
+      "feature": "categorical__gender_Female",
+      "f_score": 2.6267035428632863
+    },
+    {
+      "feature": "categorical__interest_Technology",
+      "f_score": 1.389457839922059
+    },
+    {
+      "feature": "numeric__age",
+      "f_score": 0.882932471141528
+    },
+    {
+      "feature": "categorical__interest_Music",
+      "f_score": 0.7967612735847708
+    },
+    {
+      "feature": "categorical__gender_Other",
+      "f_score": 0.7309247375275544
+    }
+  ]
+}
